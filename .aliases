@@ -146,3 +146,20 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+
+# Amir's aliases
+alias vienv='vi ~/.zshrc'
+alias authors='git shortlog -se --numbered'
+alias active-authors="git shortlog -se --numbered --since=4.weeks"
+alias code-maat='java -jar ~/bin/code-maat.jar -c git2'
+alias p="pytest "
+alias pk="pytest -k"
+alias pkv="pytest -v -k"
+alias prp="poetry run pytest"
+alias prpk="poetry run pytest -k"
+alias prpkv="poetry run pytest -v -k"
+alias cbt="cargo build --tests"
+alias cb="cargo build"
+alias ct="cargo test"
+alias gcmsg="git commit -m"

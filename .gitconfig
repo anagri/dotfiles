@@ -99,6 +99,8 @@
 	# https://git-scm.com/docs/git-update-index#_untracked_cache
 	untrackedCache = true
 
+	editor = vi
+
 [color]
 
 	# Use colors in Git commands that are capable of colored output when
@@ -127,7 +129,7 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+	# gpgsign = true
 
 [diff]
 
@@ -179,5 +181,25 @@
 	insteadOf = "gist:"
 
 [init]
-
 	defaultBranch = main
+[safe]
+	directory = /workspaces/BodhiApp
+	directory = /workspaces/BodhiApp/llamacpp-sys
+	directory = /workspaces/BodhiApp
+	directory = /workspaces/BodhiApp
+	directory = /workspaces/BodhiApp
+	directory = /workspaces/BodhiApp
+	directory = /workspaces/BodhiApp
+	directory = /workspaces/BodhiApp
+	directory = /workspaces/BodhiApp
+	directory = /workspaces/BodhiApp
+	directory = /workspaces/BodhiApp
+	directory = /workspaces/BodhiApp
+	directory = /workspaces/BodhiApp
+[credential]
+	helper = "!f() { /home/vscode/.cursor-server/bin/949de58bd3d85d530972cac2dffc4feb9eee1e40/node /tmp/vscode-remote-containers-ddee255a-3e6e-47bf-b7f9-f780ac48a205.js git-credential-helper $*; }; f"
+[user]
+	name = anagri
+	email = 127566+anagri@users.noreply.github.com
+[pull]
+	rebase = true
